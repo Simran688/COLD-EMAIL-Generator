@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "E:\project-genai-cold-email-generator-main\app\main.py", // Replace with your main Python file
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "E:\project-genai-cold-email-generator-main\app\main.py" // Replace with your main Python file
+    }
+  ]
+}
